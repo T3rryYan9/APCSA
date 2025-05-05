@@ -1,0 +1,13 @@
+//Write the roll method to simulate the roll of one die
+//returns an integer from 1 to number of faces to simulate a die roll **/
+
+public int roll(){
+    return Math.random() * numFaces + 1;
+}
+
+// 2/3 points earned
+
+// Lost 1 point as you didn't cast the return statement as and int
+
+// Line 5 should look like the following
+return (int) (Math.random() * numFaces +1);

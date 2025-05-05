@@ -1,0 +1,27 @@
+// Write the runSimulation method
+
+public int runSimulation(){
+    int count = 0;
+    int roll1 = 0;
+    int roll2 = 0;
+
+    for(int  = 0; i < numSampleSize; i++){
+        roll1  = roll();
+        roll2 = roll();
+        if(roll1 == roll2){
+            count++;
+        }
+    }
+
+    return (count/numSamplesize) * 10;
+}
+s
+// 4/6 points earned 
+
+//Lost a point for not properly returning the percentage as a decimal; Line 16 should look like
+return (int) ((1.0*count/numSampleSize) * 100);
+
+//Lost a point on the same line, this did NOT return an integer value
+
+
+
