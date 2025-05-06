@@ -17,3 +17,5 @@ SeatingChart(Names[] names, int rows, int cols){
     }
     
 }
+
+// 1/6 Points earned, lost basically all of them in this question

@@ -1,0 +1,20 @@
+This is from the Princeton Review Textbook 2023, first practice test 
+ 24/36 Points overall
+
+Question 1  (Easy Fix)
+    6/9 Points
+    - Lost points because type casting was incorrect and didn't write the proper return statement to sum as a integer percentage and just return an integer not num
+
+Question 2 (Easy Question)
+    9/9 Points
+    - No points lost
+
+Question 3 (Medium question)
+    6/9 Points
+    - Lost points as you misread a question not updating a attribute field,  and overall didn't understand question
+
+Question 4(Difficult)
+    3/9 Points
+    - Lost points bc you didnt understand the question at all nor knew how to access certain data within array objects, lost a single point b/c you forgot to return a string
+
+Including MCQ (33/40), this test earned a 60/80 or a high 4 (5 Starts at 62 and more)

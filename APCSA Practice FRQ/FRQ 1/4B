@@ -8,8 +8,10 @@ public String toString(){
             String temp = chart[i][j];
             list += padWithSpaces(temp);
         }
-        list += "/n";
+        list += "\n";
     }
 
 
 }
+
+// 2/3 Points, lost 1 point because you forgot to return a string

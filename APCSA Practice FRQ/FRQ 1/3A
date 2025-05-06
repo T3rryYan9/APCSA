@@ -5,3 +5,9 @@ TravelPlan(String destination){
     Tour newONE = new Tour(destination);
     plans.add(newONE);
 }
+
+//Earned only 2/3 Points
+
+// Lost a point as I didnt update destination instance field (is is a parameter, this question didnt want me to add anything to tour specifically);
+
+//Lines 5 and 6 were unnecessary.  Couldve replaced the lines with just this.destination = destination to update the field

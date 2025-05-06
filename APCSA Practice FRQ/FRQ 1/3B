@@ -10,3 +10,5 @@ public boolean checkForConflicts(Tour t){
         }
     }
 }
+
+// 2/4 Points earned,  completely didn't know how to do this question 
