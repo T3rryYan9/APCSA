@@ -1,0 +1,7 @@
+//Write the TravelPlan constructor. The constuctor should initialize the destination and the plans ArrayList.
+
+TravelPlan(String destination){
+    plans = new ArrayList<Tour>;
+    Tour newONE = new Tour(destination);
+    plans.add(newONE);
+}
