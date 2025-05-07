@@ -1,9 +1,9 @@
 //Write the TravelPlan checkForConflicts method.  The constructor should initialize the destination and the plans ArrayList
 
 public boolean checkForConflicts(Tour t){
-    plans.add(t);
     for (int i =0; i <plans.size(); i++){
         if (plans.get(i) < t){
+            plans.add(t);
             return true;
         }  else {
             return false;
