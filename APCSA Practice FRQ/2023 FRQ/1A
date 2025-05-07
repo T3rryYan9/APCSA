@@ -1,0 +1,27 @@
+//1A Write the findFreeBlock Method
+
+public int findFreeBlock (int period,int duration){
+
+    int count = 0;  
+    int tempStart=0;
+    for(int i = 1; i <= 59; i++){
+        if(duration >= count){
+            return tempstart;
+        }
+        if(isMinuteFree(period,i)){
+            count++
+            if(!(isMinuteFree(period, i-1))){
+                tempStart = i;
+            }
+        } else {
+            count = 0;
+        }
+
+    }
+
+    return -1;
+}
+
+
+
++ + + - - - + + 
