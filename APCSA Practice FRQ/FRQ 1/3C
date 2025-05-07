@@ -1,0 +1,20 @@
+//Write the addTour method. The constuctor should initialize the destination and the plans ArrayList
+
+public boolean addTour(Tour t){
+    boolean check = checkForConflicts(t);
+    if (check == false){
+        plans.add(t);
+        return true;
+    } else {
+        return false;
+    }
+}
+
+// 2/2 Points earned, no points lost
+
+
+
+
+
+
+

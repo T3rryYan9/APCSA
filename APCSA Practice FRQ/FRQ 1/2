@@ -1,1 +1,35 @@
-//Create a scoreboard classs 
+//Write the entire CalorieCount class.
+
+public class CalorieCount {
+    private int calorieLimit = 0;
+    private int calorieIntake =0;
+    private int GProtein = 0;
+    private int Carb= 0;
+    private int fat = 0 ;
+
+    CalorieCount(int calL){
+        calorieLimit = calL;
+    }
+
+    public void addMeal(int calI, int Protein, int carbs, int fats){
+        calorieIntake += calI;
+        GProtein += Protein;
+        Carb += carbs;
+        fat += fats;
+    }
+
+    public double getProteinPercentage(){
+        return (4*(double)GProtein/calorieIntake);
+    }
+
+    public boolean onTrack(){
+        if (calorieIntake <= calorieLimit){
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+}
+
+//Earned 9/9 No points lost

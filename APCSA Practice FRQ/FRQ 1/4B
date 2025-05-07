@@ -1,0 +1,17 @@
+//Write the SeatingChart toString() method.
+
+public String toString(){
+    String list;
+
+    for (int i =0; i < chart.length; i++){
+        for (int j = 0; j < chart[0].length; j++){
+            String temp = chart[i][j];
+            list += padWithSpaces(temp);
+        }
+        list += "\n";
+    }
+
+
+}
+
+// 2/3 Points, lost 1 point because you forgot to return a string
